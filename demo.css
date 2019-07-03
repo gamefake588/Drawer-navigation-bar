@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div,section{
+    transition: all 1s;
+}
+
+.box{
+    width: 100%;
+    height: 100vh;
+    background-color: #2c2c2c;
+    display: flex;
+}
+
+/* 侧边导航 */
+.SideEdge{
+    width: 0%;
+    height: inherit;
+    background-color: #e5e5e5;
+}
+
+/* app */
+.app{
+    position: relative;
+    width: 100%;
+    height: inherit;
+}
+.app > h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-family: "黑体";
+    transform: translate(-50%,-50%);
+}
+.app > button{
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    padding: 5px 15px;
+    background-color: rgb(0, 119, 255);
+    border: 1px solid rgb(0, 119, 255);
+    color: #fff;
+    border-radius: 5px;
+}
